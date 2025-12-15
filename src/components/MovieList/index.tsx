@@ -16,6 +16,7 @@ interface Movie {
   duracao: number;
 }
 
+
 const MovieList = ({ movies }: MovieListProps) => {
   return (
     <ul className={styles.lista}>
